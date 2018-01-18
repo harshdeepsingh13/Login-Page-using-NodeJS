@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <script src="js/validate.js"></script>
+</head>
+<body style="text-align: center">
+<form action="/checkSignUp">
+    <p>
+        Name: <input type="text" required="required" name="name">
+    </p>
+    <p>
+        Username: <input type="text" name="username" required="required"><br><br>
+        Password: <input type="password" required="required" id="firstPass" name="password"><br><br>
+        Re write Password: <input type="password" required="required" id="secondPass" onkeyup="validatePassword()">
+    <span id="validResult"></span>
+    </p>
+    <p>
+        <input type="submit" id="submit" disabled="disabled">
+    </p>
+</form>
+</body>
+</html>
