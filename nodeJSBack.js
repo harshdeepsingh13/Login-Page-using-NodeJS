@@ -119,4 +119,4 @@ http.createServer(function(req,res){
             res.writeHead(404,{'Content-Type':'text/html'});
             res.end('page not found its me');
         }
-}).listen(8080);
+}).listen(process.env.PORT || 3000);
