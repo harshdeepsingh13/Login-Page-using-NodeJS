@@ -5,7 +5,9 @@
   "description": "## About This repository is all about how to easily make a simple login and signup page using nodeJS at the server with MongoDB database connectivity. It also checks the redundancy on username.",
   "main": "nodeJSBack.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node nodeJSBack.js"
+
   },
   "repository": {
     "type": "git",
