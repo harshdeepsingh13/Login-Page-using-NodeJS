@@ -1,0 +1,24 @@
+{
+  "name": "login-page",
+  "engines" : { "node" : ">=0.12" },
+  "version": "1.0.0",
+  "description": "## About This repository is all about how to easily make a simple login and signup page using nodeJS at the server with MongoDB database connectivity. It also checks the redundancy on username.",
+  "main": "nodeJSBack.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshdeepsingh13/Login-Page-using-NodeJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshdeepsingh13/Login-Page-using-NodeJS/issues"
+  },
+  "homepage": "https://github.com/harshdeepsingh13/Login-Page-using-NodeJS#readme",
+  "dependencies": {
+    "formidable": "^1.1.1",
+    "mongodb": "^3.0.1"
+  }
+}
